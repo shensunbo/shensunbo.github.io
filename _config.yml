@@ -1,7 +1,7 @@
 # Site settings
 title: SunBo Blog
 SEOTitle: SunBo Blog
-header-img: img/bg-material.jpg
+header-img: img/bg-little-universe.jpg
 email: shensunbo@foxmail.com
 description: "沈孙博的博客"
 keyword: "嘎子"
@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-#facebook_username:  huxpro
+#facebook_username:  shensunbopro
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -55,7 +55,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: shensunbo
 
 # Netease settings
 netease_comment: false

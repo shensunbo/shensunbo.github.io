@@ -1,9 +1,9 @@
-[Hux Blog](https://huangxuan.me)
+[shensunbo Blog](https://shensunbo.me)
 ================================
 
 > I never expect this becomes popular.
 
-![](http://huangxuan.me/img/blog-desktop.jpg)
+![](http://shensunbo.me/img/bg-material.jpg)
 
 
 [User Manual 👉](_doc/Manual.md)

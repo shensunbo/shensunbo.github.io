@@ -53,13 +53,12 @@ You can easily customize the blog by modifying `_config.yml`:
 
 ```yml
 # Site settings
-title: Hux Blog             # title of your website
-SEOTitle: Hux Blog          # check out docs for more detail
+title: shensunbo Blog             # title of your website
+SEOTitle: shensunbo Blog          # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
-github_username: huxpro     # modify this account to yours
-weibo_username: huxpro      # the footer woule be auto-updated.
+github_username: shensunbo     # modify this account to yours
 
 # Build settings
 paginate: 10                # nums of posts in one page
@@ -82,7 +81,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   " \"Hello World, Hello Blog\""
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "shensunbo"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
