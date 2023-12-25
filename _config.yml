@@ -1,6 +1,6 @@
 # Site settings
-title: SunBo Blog
-SEOTitle: SunBo Blog
+title: shensunbo Blog
+SEOTitle: shensunbo Blog
 header-img: img/bg-little-universe.jpg
 email: shensunbo@foxmail.com
 description: "沈孙博的博客"
@@ -71,7 +71,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "奶奶的鸡嘎子"
-sidebar-avatar: img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: img/bg-little-universe.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
