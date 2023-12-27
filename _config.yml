@@ -4,7 +4,7 @@ SEOTitle: shensunbo Blog
 header-img: img/bg-little-universe.jpg
 email: shensunbo@foxmail.com
 description: "沈孙博的博客"
-keyword: "嘎子"
+keyword: "shensunbo"
 url: "https://shensunbo.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,6 +13,8 @@ future: true
 
 # SNS settings
 RSS: false
+email: shensunbo@foxmail.com
+wechat: shensunbo
 #facebook_username:  shensunbopro
 #linkedin_username:  firstname-lastname-idxxxx
 
