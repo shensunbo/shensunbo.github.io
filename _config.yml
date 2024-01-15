@@ -4,7 +4,7 @@ SEOTitle: shensunbo Blog
 header-img: img/bg-little-universe.jpg
 email: shensunbo@foxmail.com
 description: "沈孙博的博客"
-keyword: "我太想进步了"
+keyword: "shensunbo"
 url: "https://shensunbo.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -68,7 +68,7 @@ netease_comment: false
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "shensunbo"
+sidebar-about-description: "我太想进步了"
 sidebar-avatar: https://shensunbo.github.io/img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
