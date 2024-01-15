@@ -1,10 +1,10 @@
 # Site settings
-title: 我太想进步了
+title: shensunbo Blog
 SEOTitle: shensunbo Blog
 header-img: img/bg-little-universe.jpg
 email: shensunbo@foxmail.com
 description: "沈孙博的博客"
-keyword: "shensunbo"
+keyword: "我太想进步了"
 url: "https://shensunbo.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
