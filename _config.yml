@@ -71,6 +71,11 @@ sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "我太想进步了"
 sidebar-avatar: https://shensunbo.github.io/img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
+# Custom link in the sidebar
+sidebar-custom-link: 
+  - title: "私人链接"
+    url: "https://github.com/shensunbo/goal"
+
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
 featured-condition-size: 1 # A tag will be featured if the size of it is more than this condition value

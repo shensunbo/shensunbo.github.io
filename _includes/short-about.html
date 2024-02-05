@@ -10,5 +10,14 @@
     {% endif %}
     <!-- SNS Link -->
     {% include sns-links.html %}
+    
+    <!-- Custom Links -->
+    {% if site.sidebar-custom-link %}
+      <ul>
+        {% for link in site.sidebar-custom-link %}
+          <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+        {% endfor %}
+      </ul>
+    {% endif %}
   </div>
 </section>
