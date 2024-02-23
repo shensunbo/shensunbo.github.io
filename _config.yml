@@ -69,8 +69,8 @@ netease_comment: false
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "我太想进步了"
-email: "shensunbo@foxmail.com"
-wechat: "shensunbo"
+email: "email: shensunbo@foxmail.com"
+wechat: "wechat: shensunbo"
 sidebar-avatar: https://shensunbo.github.io/img/avatar.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Custom link in the sidebar
