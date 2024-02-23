@@ -9,10 +9,11 @@
         <p>{{site.sidebar-about-description}}</p>
     {% endif %}
     {% if site.email %}
-        <p>{{site.email}}</p>
+        <p>Email: {{ site.email }}</p>
     {% endif %}
     {% if site.wechat %}
-        <p>{{site.wechat}}</p>
+        <p>Wechat: {{ site.wechat }}</p>
+    {% endif %}
     {% endif %}
     <!-- SNS Link -->
     {% include sns-links.html %}
