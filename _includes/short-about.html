@@ -6,11 +6,13 @@
     <img src="{{site.sidebar-avatar}}" />
     {% endif %}
     {% if site.sidebar-about-description %}
-    <p>{{site.sidebar-about-description}}</p>
+        <p>{{site.sidebar-about-description}}</p>
+    {% endif %}
     {% if email %}
-    <p>{{email}}</p>
+        <p>{{email}}</p>
+    {% endif %}
     {% if wechat %}
-    <p>{{wechat}}</p>
+        <p>{{wechat}}</p>
     {% endif %}
     <!-- SNS Link -->
     {% include sns-links.html %}
