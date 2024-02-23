@@ -7,6 +7,10 @@
     {% endif %}
     {% if site.sidebar-about-description %}
     <p>{{site.sidebar-about-description}}</p>
+    {% if email %}
+    <p>{{email}}</p>
+    {% if wechat %}
+    <p>{{wechat}}</p>
     {% endif %}
     <!-- SNS Link -->
     {% include sns-links.html %}
