@@ -18,7 +18,8 @@ tags:
 │   └── libhelloworld.a
 └── src
     └── main.cpp
-```
+``` 
+
 2. 根目录下创建一个`CMakeLists.txt`, 内容如下 
 ```
 # not necessary
@@ -39,7 +40,7 @@ add_executable(helloExe src/main.cpp)
 # link lib 
 target_link_libraries(helloExe  byeworld helloworld)
 
-```
+``` 
 3. 根目录下创建一个`build`文件来存放输出文件，`build`文件夹下执行 `cmake ..` __(`cmake` 后跟`CMakeLists.txt`文件的路径)__ 
 4. 执行完之后会输出一些文件，其中有`makefile` 
 5. 在 `build`文件夹下执行`make`指令，构建项目，执行结果如下 
@@ -55,4 +56,4 @@ Scanning dependencies of target helloExe
 ~/code/testCode/cmakeTest/build$ ./helloExe 
  hello the damn world 
  bye world
-```
+``` 
