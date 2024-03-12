@@ -20,7 +20,8 @@ tags:
     └── main.cpp
 ``` 
 
-2. 根目录下创建一个`CMakeLists.txt`, 内容如下 
+2. 根目录下创建一个`CMakeLists.txt`, 内容如下  
+  
 ```
  # not necessary
 cmake_minimum_required(VERSION 3.10)
