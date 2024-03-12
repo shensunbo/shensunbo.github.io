@@ -22,22 +22,22 @@ tags:
 
 2. 根目录下创建一个`CMakeLists.txt`, 内容如下 
 ```
-# not necessary
+ # not necessary
 cmake_minimum_required(VERSION 3.10)
 
-# set project name
+ # set project name
 project(HelloWorld)
 
-# add .h file path
+ # add .h file path
 include_directories(include)
 
-# add lib file path
+ # add lib file path
 link_directories(lib)
 
-# add executable file
+ # add executable file
 add_executable(helloExe src/main.cpp)
 
-# link lib 
+ # link lib 
 target_link_libraries(helloExe  byeworld helloworld)
 
 ``` 
