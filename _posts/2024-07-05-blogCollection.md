@@ -9,3 +9,4 @@ tags:
     - 收集
 ---
 1. [poor busy](https://www.ruanyifeng.com/blog/2017/07/working-poor.html)  
+2. [idk about survivor](https://www.ruanyifeng.com/blog/2019/01/survivor-preface.html)
