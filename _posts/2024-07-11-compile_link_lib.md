@@ -31,3 +31,5 @@ tags:
         nm -D <libname> | grep NEEDED
         elfdump -d <libname> | grep NEEDED
     ```
+3.恢复默认的交叉编译选项
+    `unset LD_LIBRARY_PATH`
