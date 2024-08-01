@@ -9,6 +9,10 @@ tags:
     - unit test
 ---
 
+### build 
+1. build with sample `cmake -Dgtest_build_samples=ON ..`
+
+### NOTE 
 1. add custom message `ASSERT_EQ(x.size(), y.size()) << "Vectors x and y are of unequal length";`
 
 ### Test Fixtures
