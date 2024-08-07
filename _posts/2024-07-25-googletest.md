@@ -8,6 +8,7 @@ tags:
     - gtest
     - unit test
 ---
+[https://github.com/shensunbo/google_test_insight](https://github.com/shensunbo/google_test_insight)
 
 ### build 
 1. build with sample `cmake -Dgtest_build_samples=ON ..`

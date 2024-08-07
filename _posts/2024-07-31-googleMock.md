@@ -9,8 +9,11 @@ tags:
     - unit test
     - gmock
 ---
+[https://github.com/shensunbo/google_test_insight](https://github.com/shensunbo/google_test_insight)
 
 1. 什么样的类是可以使用gtest测试的
+    * 类的依赖采用依赖注入的方式引入
+    * 依赖在类中是指针或引用，并且可以通过接口设置
 
 2. 编写类时如何注意适配gmock
 
@@ -37,3 +40,4 @@ tags:
 
 6. You must always put a mock method definition (MOCK_METHOD) in a public: section of the mock class, regardless of the method being mocked being public, protected, or private in the base class. 
 7. if you don’t mock all versions of the overloaded method, the compiler will give you a warning about some methods in the base class being hidden. To fix that, use using to bring them in scope:`using Foo::Add;`
+8. Delegating Calls to a Fake, 可以使用ON_CALL将mock的成员绑定到concrete的成员上，

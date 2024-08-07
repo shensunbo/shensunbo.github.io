@@ -8,6 +8,7 @@ tags:
     - gtest
     - unit test
 ---
+[https://github.com/shensunbo/google_test_insight](https://github.com/shensunbo/google_test_insight)
 # 配置问题
 ## 使用 `ctest -V`，输出到命令行的测试结果没有颜色 
 1. 可以使用 `GTEST_COLOR=1 ctest -V`，但这会污染测试报告 
