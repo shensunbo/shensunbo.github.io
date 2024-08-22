@@ -41,3 +41,11 @@ tags:
 6. You must always put a mock method definition (MOCK_METHOD) in a public: section of the mock class, regardless of the method being mocked being public, protected, or private in the base class. 
 7. if you don’t mock all versions of the overloaded method, the compiler will give you a warning about some methods in the base class being hidden. To fix that, use using to bring them in scope:`using Foo::Add;`
 8. Delegating Calls to a Fake, 可以使用ON_CALL将mock的成员绑定到concrete的成员上，
+9. mock non virtual function: use template
+10. Mocking Free Functions: encapsulate to a class
+
+
+# 高频问题 
+1. If a mock method has no EXPECT_CALL spec but is called, we say that it’s an “uninteresting call”. Currently, an uninteresting call will also by default cause gMock to print a warning.
+    * 使用`NiceMock` 来创建mock对象可以消除这个警告，`NiceMock<MockFoo>` 
+    * 使用`StrictMock` 可以让这个警告变成错误 
