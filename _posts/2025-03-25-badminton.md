@@ -1,11 +1,10 @@
 ---
 layout:       post
-title:        "bgfx"
+title:        "badminton"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - bgfx
-    - opengl
+    - badminton
 ---
-
+![qrcode](/img/in-post/qrcode.png)
