@@ -10,7 +10,7 @@ tags:
 
 # basic
 ## pipeline
-![pipeline](/_posts/img/pipeline.png)
+![pipeline](/img/in-post/mine/pipeline.png)
 
 ## VAO 和 VBO
 1. VBO 在GPU中存贮顶点数据等
@@ -115,4 +115,4 @@ glBindBuffer(GL_UNIFORM_BUFFER, UBO);
 glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(LightST), glm::value_ptr(lightSt)); // 更新projection
 glBindBuffer(GL_UNIFORM_BUFFER, 0);
 ```
-![VAO](/_posts/img/vao.png)
+![VAO](/img/in-post/mine/vao.png)
