@@ -10,6 +10,9 @@ tags:
     - opengl
 ---
 # basic
+## pipeline
+![pipeline](img/pipeline.png)
+
 ## VAO 和 VBO
 1. VBO 在GPU中存贮顶点数据等
 2. VAO 描述VBO的属性，如何访问VBO中的数据
@@ -101,12 +104,11 @@ glBufferData(GL_UNIFORM_BUFFER, sizeof(LightST), nullptr, GL_STATIC_DRAW);
 glBindBuffer(GL_UNIFORM_BUFFER, 0);
 
 glBindBufferBase(GL_UNIFORM_BUFFER, 0, UBO);
-
 // glBindBufferRange(GL_UNIFORM_BUFFER, 1, UBO_LightProps, 0, 3 * 4 * sizeof(float));
+//Calling glBindBufferBase is equivalent to calling glBindBufferRange with offset zero and size equal to the size of the buffer.
 
 unsigned int matricesBlockIndex_Shader1 = glGetUniformBlockIndex(shaderProgram1.ID, "Lights");
 glUniformBlockBinding(shaderProgram1.ID, matricesBlockIndex_Shader1, 0);
-
 
 // 更新Matrices UBO
 LightST lightSt{};
@@ -114,3 +116,4 @@ glBindBuffer(GL_UNIFORM_BUFFER, UBO);
 glBufferSubData(GL_UNIFORM_BUFFER, 0, sizeof(LightST), glm::value_ptr(lightSt)); // 更新projection
 glBindBuffer(GL_UNIFORM_BUFFER, 0);
 ```
+![VAO](img/vao.png)
