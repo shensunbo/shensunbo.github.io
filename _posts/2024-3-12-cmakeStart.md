@@ -8,6 +8,8 @@ tags:
     - cmake
 ---
 
+# basic
+
 1. 初始目录，使用两个静态库 
 ```
 ├── include
@@ -58,3 +60,14 @@ Scanning dependencies of target helloExe
  hello the damn world 
  bye world
 ``` 
+
+# recommend 
+## Disable in-source builds to prevent source tree corruption.
+```
+if(" ${CMAKE_SOURCE_DIR}" STREQUAL " ${CMAKE_BINARY_DIR}")
+  message(FATAL_ERROR "
+FATAL: In-source builds are not allowed.
+       You should create a separate directory for build files.
+")
+endif()
+```
