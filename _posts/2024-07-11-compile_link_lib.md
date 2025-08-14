@@ -7,6 +7,7 @@ catalog:      true
 tags:
     - linux
 ---
+
 1. 链接顺序
     ```
     This is because the linker resolves symbols in the order that the libraries are listed on the command line. If a library is listed before the library it depends on, the linker will not be able to resolve the symbols, resulting in an error.

@@ -8,6 +8,7 @@ tags:
     - ffmpeg
     - record
 ---
+
 ```
     // Read packets from input file and write to output file
     //TODO: 内存如何释放
