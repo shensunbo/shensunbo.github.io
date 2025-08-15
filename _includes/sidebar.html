@@ -1,0 +1,104 @@
+<!-- _includes/sidebar.html -->
+<div class="sidebar-container">
+    <!-- 作者信息栏 -->
+    <section class="visible-md visible-lg">
+        <hr>
+        <h5><a href="{{ '/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
+        <div class="short-about">
+            {% if site.sidebar-avatar %}
+                <img src="{{ site.sidebar-avatar }}" alt="avatar"/>
+            {% endif %}
+            {% if site.sidebar-about-description %}
+                <p>{{ site.sidebar-about-description }}</p>
+            {% endif %}
+            <!-- 社交图标 -->
+            <ul class="list-inline">
+                {% if site.email %}
+                    <li>
+                        <a href="mailto:{{ site.email }}?subject=Hello">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </li>
+                {% endif %}
+                {% if site.wechat %}
+                    <li>
+                        <a href="weixin://dl/chat?{{ site.wechat }}">
+                            <i class="fa fa-weixin"></i>
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </section>
+
+    <!-- 特色标签 -->
+    <section>
+        <hr>
+        <h5><a href="{{ '/archive/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
+        <div class="tags">
+            {% for tag in site.tags %}
+                {% if tag[1].size > site.featured-condition-size %}
+                    <a href="{{ site.baseurl }}/archive/?tag={{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">
+                        {{ tag[0] }}
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- 自定义链接（您需要的部分） -->
+    {% if site.sidebar-custom-link %}
+    <section>
+        <hr>
+        <h5>CUSTOM LINKS</h5>
+        <div class="sidebar-links">
+            {% for link in site.sidebar-custom-link %}
+                <a href="{{ link.url }}" target="_blank">
+                    <i class="fa {{ link.icon }}"></i> {{ link.title }}
+                </a>
+            {% endfor %}
+        </div>
+    </section>
+    {% endif %}
+
+    <!-- 友情链接（可选） -->
+    {% if site.friends %}
+    <section>
+        <hr>
+        <h5>FRIENDS</h5>
+        <ul class="list-inline">
+            {% for friend in site.friends %}
+                <li><a href="{{ friend.href }}" target="_blank">{{ friend.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+</div>
+
+<style>
+    /* 自定义样式 */
+    .sidebar-container {
+        padding: 20px 15px;
+    }
+    .sidebar-links a {
+        display: block;
+        margin-bottom: 10px;
+        color: #333;
+        text-decoration: none;
+    }
+    .sidebar-links a:hover {
+        color: #1abc9c;
+    }
+    .sidebar-links .fa {
+        margin-right: 8px;
+        width: 16px;
+        text-align: center;
+    }
+    .tags a {
+        display: inline-block;
+        padding: 2px 8px;
+        margin: 0 4px 8px 0;
+        background: #f5f5f5;
+        border-radius: 3px;
+    }
+</style>
