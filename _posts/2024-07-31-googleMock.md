@@ -9,6 +9,7 @@ tags:
     - unit test
     - gmock
 ---
+
 [https://github.com/shensunbo/google_test_insight](https://github.com/shensunbo/google_test_insight)
 
 1. 什么样的类是可以使用gtest测试的

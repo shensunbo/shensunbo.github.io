@@ -7,6 +7,7 @@ catalog:      true
 tags:
     - english
 ---
+
 ### 一 
 1.  Art: Appreciation of different art forms and styles.
 2.  Music: Favorite genres, artists, and concerts attended.
