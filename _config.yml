@@ -77,7 +77,6 @@ sidebar-avatar: https://shensunbo.github.io/img/avatar.jpg # use absolute URL, s
 sidebar-custom-link: 
   - title: "随笔"
     url: "https://shensunbo.github.io/shensunbo_essays/"
-    icon: "fa-bath"
   - title: "私人链接"
     url: "https://github.com/shensunbo/goal"
 
