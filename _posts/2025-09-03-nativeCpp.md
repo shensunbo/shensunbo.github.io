@@ -8,7 +8,9 @@ tags:
     - android
     - native cpp
 ---
-# build(for android studio simulator)
+
+# 编译
+## build(for android studio simulator)
 ```
     export ANDROID_NDK=/opt/ndk
 
@@ -20,7 +22,7 @@ tags:
     cmake --build .
 ```
 
-# 库文件需要放到ABI目录下
+## 库文件需要放到ABI目录下
 ```
     src/
     └── main/
@@ -35,7 +37,7 @@ tags:
             └── CMakeLists.txt
 ```
 
-# app gradle 指定ABI目录
+## app gradle 指定ABI目录
 ```
     android {
         sourceSets {
@@ -44,4 +46,21 @@ tags:
                 }
             }
     }
+```
+
+# 使用android的日志系统
+默认iostream的输出在logcat中无法看到  
+
+cmake:  
+```
+find_library(log-lib log)
+target_link_libraries(rgba2jpg ${log-lib})
+```
+
+source file: 
+```
+#include <android/log.h>
+
+#define TAG "MY_APP" 
+#define LOGI(...) __android_log_print(ANDROID_LOG_INFO, TAG, __VA_ARGS__)
 ```
