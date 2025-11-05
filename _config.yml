@@ -92,3 +92,6 @@ service-worker: true
 page-mathjax: false
 
 # Friends
+
+# ga
+ga4_track_id: "G-B9DBSZ0NXF"

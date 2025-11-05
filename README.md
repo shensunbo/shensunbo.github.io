@@ -38,6 +38,8 @@ This theme uses the default code syntax highlighter of jekyll, [Rouge](http://ro
 
 ### Interesting to know more? Checkout the [full user manual](_doc/Manual.md)!
 
+### 访问量统计
+[GA4](https://analytics.google.com/analytics/web/)
 
 Other Resources
 ---------------
