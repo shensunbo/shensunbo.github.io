@@ -47,10 +47,6 @@
                     {% comment %} always create a h2 for keeping the margin {% endcomment %}
                     <h2 class="subheading">{{ page.subtitle }}</h2>
                     <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                        <span style="margin: 0 8px;">|</span>
-                        <span id="busuanzi_container_page_pv">
-                            <span id="busuanzi_value_page_pv"></span> Read
-                        </span>
                 </div>
             </div>
         </div>
@@ -116,5 +112,3 @@
   </div>
 </header>
 {% endif %}
-
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
