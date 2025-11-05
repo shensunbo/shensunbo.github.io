@@ -43,5 +43,11 @@ libraries are needed:
 * libproxy >= 0.4.7
 ```
 
+## 创建软链接
+```
+sudo ln -s /home/shensunbo/tools/renderdoc_1.40/bin/qrenderdoc /usr/local/bin/qrenderdoc
+sudo ln -s /home/shensunbo/tools/renderdoc_1.40/bin/renderdoccmd /usr/local/bin/renderdoccmd
+```
+
 # done
 ![renderdoc](/img/in-post/blah/renderdoc.png)
