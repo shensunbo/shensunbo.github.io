@@ -68,8 +68,8 @@ layout: default
                     <div id="cusdis_thread"
                         data-host="https://cusdis.com"
                         data-app-id="9502d2a1-a277-43d0-823e-752df09c9698"
-                        data-page-id="{{ page.id }}"
-                        data-page-url="{{ site.url }}{{ page.url }}"
+                        data-page-id="{{ page.url }}"
+                        data-page-url="{{ page.url | absolute_url }}"
                         data-page-title="{{ page.title }}"
                     ></div>
                 </div>
