@@ -3,8 +3,8 @@ title: shensunbo Blog
 SEOTitle: shensunbo Blog
 header-img: img/bg-little-universe.jpg
 email: shensunbo@foxmail.com
-description: "沈孙博的博客"
-keyword: "shensunbo"
+description: "沈孙博的博客 | C++ and Rendering Development Blog"
+keyword: "C++, rendering, computer graphics, software development, programming, OpenGL, DirectX, game development, tutorials"
 url: "https://shensunbo.github.io" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -98,6 +98,3 @@ page-mathjax: false
 
 # ga
 ga4_track_id: "G-B9DBSZ0NXF"
-
-seo:
-  keywords: "C++, rendering, computer graphics, software development, programming, OpenGL, DirectX, game development, tutorials"
