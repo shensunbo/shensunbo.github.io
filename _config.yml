@@ -98,3 +98,6 @@ page-mathjax: false
 
 # ga
 ga4_track_id: "G-B9DBSZ0NXF"
+
+seo:
+  keywords: "C++, rendering, computer graphics, software development, programming, OpenGL, DirectX, game development, tutorials"
