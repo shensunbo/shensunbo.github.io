@@ -1,7 +1,36 @@
 # 待填充博客列表
+## 示例
 ⚪ 待办  
 ✅ ~~已完成~~ 
 
+## todo list
+⚪ 2026 新年计划   
+⚪ 程序、链接和库   
+⚪ gtest basic  
+⚪ gcov todo  
+⚪ json.hpp  
+✅ ~~编程~~ **deleted**    
+⚪ TIOVX  
+✅ ~~状态机~~  
+⚪ lambda 表达式  
+⚪ PBO  
+⚪ 类与回调函数  
+⚪ 如何使用ffmpeg filter API  
+⚪ 数据结构-树  
+
+## long term
+⚪ 十年学会编程  
+⚪ C++ 常用操作  
+⚪ 日志方法收集  
+⚪ code smell  
+⚪ 程序崩溃的原因  
+⚪ bgfx 
+
+## 需要整合的博客list
+⚪ gtest  
+⚪ blender  
+⚪ cpp  
+⚪ 编程技巧  
 
 # 访问量统计
 [GA4](https://analytics.google.com/analytics/web/)
