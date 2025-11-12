@@ -11,6 +11,8 @@ tags:
 ---
 
 # push an existing repository from the command line
+```
 git remote add origin https://github.com/shensunbo/android_native.git
 git branch -M main
 git push -u origin main
+```
