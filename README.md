@@ -6,10 +6,9 @@
 ## todo list
 ⚪ 2026 新年计划   
 ⚪ 程序、链接和库   
-⚪ gtest basic  
 ⚪ gcov todo  
-⚪ json.hpp  
-✅ ~~编程~~ **deleted**    
+✅ ~~json.hpp~~       
+✅ ~~编程~~ **_deleted_**    
 ⚪ TIOVX  
 ✅ ~~状态机~~  
 ⚪ lambda 表达式  
@@ -25,6 +24,7 @@
 ⚪ code smell  
 ⚪ 程序崩溃的原因  
 ⚪ bgfx 
+⚪ gtest basic  
 
 ## 需要整合的博客list
 ⚪ gtest  

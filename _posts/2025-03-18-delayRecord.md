@@ -9,6 +9,8 @@ tags:
     - record
 ---
 
+使用ffmpeg实现的一个预录制，用于保存开始录制之前的一段时间的视频
+
 ```
     // Read packets from input file and write to output file
     //TODO: 内存如何释放
