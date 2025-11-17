@@ -16,7 +16,7 @@
 ⚪ 类与回调函数  
 ⚪ 如何使用ffmpeg filter API  
 ✅ 数据结构-树  
-⚪ 如何给自己配置一个新的开发环境  
+✅ 如何给自己配置一个新的开发环境  
 
 ## long term
 ⚪ 十年学会编程  
@@ -26,6 +26,7 @@
 ⚪ 程序崩溃的原因  
 ⚪ bgfx 
 ⚪ gtest basic  
+⚪ Android renderer learn vlog
 
 ## 需要整合的博客list
 ⚪ gtest  
