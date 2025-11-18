@@ -8,6 +8,8 @@ tags:
     - android
     - native cpp
 ---
+# 参考链接
+[参考链接-交叉编译cpp so](https://shensunbo.github.io/2025/09/03/nativeCpp/)
 
 # 编译
 ## build(for android studio simulator)
