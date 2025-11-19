@@ -53,11 +53,13 @@ cmake .. \
   -DASSIMP_BUILD_TESTS=OFF \
   -DASSIMP_BUILD_ASSIMP_TOOLS=OFF \
   -DASSIMP_NO_EXPORT=ON
-  
+
 # 编译
 cmake --build . -j$(nproc)
 
 # strip 多余符号以减小库大小
+$ANDROID_NDK/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-strip --strip-unneeded bin/libassimp.so 
+or 
 strip --strip-unneeded bin/libassimp.so
 
 # 验证生成的库
