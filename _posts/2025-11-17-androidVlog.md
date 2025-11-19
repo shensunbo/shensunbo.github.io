@@ -7,6 +7,7 @@ catalog:      true
 tags:
     - Android 
     - renderer
+    - opengl
 ---
 # 仓库
 [github repo](https://github.com/shensunbo/android_native)
