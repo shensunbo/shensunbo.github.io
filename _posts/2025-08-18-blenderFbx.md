@@ -18,3 +18,8 @@ tags:
 
 ## find missing files
 1. 如果工程中的纹理图片路径错误，找不到，可以通过`file`-`external data`-`find missing files`来重新匹配
+
+# material 
+## 给同一个object的不同部分指定不同的材质
+1. 编辑模式，选中要改变材质的面
+2. 材质属性里面选中要赋予的材质，assign
