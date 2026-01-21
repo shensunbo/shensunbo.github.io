@@ -18,6 +18,8 @@
 ✅ 数据结构-树  
 ✅ 如何给自己配置一个新的开发环境  
 ⚪ 如何使用PS类软件修改图像中某个元素的位置 
+⚪ renderer渲染器问题及解决方案, assimp
+⚪ valgrind  使用
 
 ## long term
 ⚪ 十年学会编程  
@@ -28,6 +30,7 @@
 ⚪ bgfx 
 ⚪ gtest basic  
 ⚪ Android renderer learn vlog
+⚪ renderer渲染器问题及解决方案
 
 ## 需要整合的博客list
 ⚪ gtest  
