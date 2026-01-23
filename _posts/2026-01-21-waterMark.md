@@ -9,7 +9,13 @@ tags:
     - NV12
     - waterMark
 ---
-CPU方案，仅适用于简单的字符水印，比如时间戳等。复杂的水印建议使用GPU方案。
+[reference](https://github.com/shensunbo/yuv_tools)
+
+- CPU方案，仅适用于简单的字符水印，比如时间戳等。复杂的水印建议使用GPU方案。
+> 这个方案存在字体边缘有黑色边框的问题
+![waterMark2](/img/in-post/mine/waterMark2.png)
+- 😁 fixed
+![waterMark3](/img/in-post/mine/waterMark3.png)
 
 # NV12 图像像素格式
 一个6x4的nv12格式图像的内存数据排列
@@ -69,7 +75,8 @@ void Watermark::Nv12AddDateWatermark(unsigned char* nv12Buf, int width, int heig
                 if (text_alpha > 0) {
                     // Overlay text pixel on Y plane
                     index = (y_pos + i) * width + x + j;
-                    nv12Buf[index] = slot->bitmap.buffer[i * slot->bitmap.pitch + j];
+                    float alpha = slot->bitmap.buffer[i * slot->bitmap.pitch + j] / 255.0f;
+                    nv12Buf[index] = (unsigned char)((1.0f - alpha) * nv12Buf[index] + alpha * 255);
                     mylog(E, " %d", slot->bitmap.buffer[i * slot->bitmap.pitch + j]);
                     assert(index < picSize);
                 }
