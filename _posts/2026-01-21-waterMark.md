@@ -12,13 +12,13 @@ tags:
 [reference](https://github.com/shensunbo/yuv_tools)
 
 - CPU方案，仅适用于简单的字符水印，比如时间戳等。复杂的水印建议使用GPU方案。
-> 这个方案存在字体边缘有黑色边框的问题
+> ~~这个方案存在字体边缘有黑色边框的问题~~
 ![waterMark2](/img/in-post/mine/waterMark2.png)
 - 😁 fixed
 ![waterMark3](/img/in-post/mine/waterMark3.png)
 
 # TODO list
-- 优化处理速度，目前X86上叠花费大概300us，FT_Load_Char总共占了200us，后续修改为将字符预渲染到查找表中，查表替代实时渲染。
+- ~~优化处理速度，目前X86上叠花费大概300us，FT_Load_Char总共占了200us，后续修改为将字符预渲染到查找表中，查表替代实时渲染。~~ 已经修改为了预渲染的方式，叠加水印占用70us左右
 
 # NV12 图像像素格式
 一个6x4的nv12格式图像的内存数据排列
