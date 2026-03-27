@@ -33,6 +33,25 @@ $(document).ready(function() {
     $("table").addClass("table");
 });
 
+// WIP Posts Toggle
+$(document).ready(function() {
+    var WIP_KEY = 'showWip';
+    var isShowing = localStorage.getItem(WIP_KEY) === 'true';
+
+    if (isShowing) {
+        $('body').addClass('show-wip');
+        $('#wip-toggle').addClass('active');
+    }
+
+    $('#wip-toggle').on('click', function(e) {
+        e.preventDefault();
+        isShowing = !isShowing;
+        $('body').toggleClass('show-wip', isShowing);
+        $(this).toggleClass('active', isShowing);
+        localStorage.setItem(WIP_KEY, isShowing);
+    });
+});
+
 // responsive embed videos
 $(document).ready(function() {
     $('iframe[src*="youtube.com"]').wrap('<div class="embed-responsive embed-responsive-16by9"></div>');

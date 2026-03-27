@@ -1,0 +1,35 @@
+// WIP (Work In Progress) Posts Toggle
+
+// Hide WIP post cards on the index page by default
+.post-preview[data-wip] {
+    display: none;
+}
+
+// Show WIP posts when toggle is active
+body.show-wip .post-preview[data-wip] {
+    display: block;
+}
+
+// WIP banner shown at the top of a WIP post page
+.wip-banner {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    border-radius: 0 4px 4px 0;
+    padding: 12px 16px;
+    margin-bottom: 25px;
+    font-size: 15px;
+    color: #5d4037;
+}
+
+// WIP toggle button in the navbar
+#wip-toggle {
+    opacity: 0.55;
+    transition: opacity 0.2s;
+    &:hover {
+        opacity: 1;
+    }
+    &.active {
+        opacity: 1;
+        color: #ffc107 !important;
+    }
+}

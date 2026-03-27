@@ -79,6 +79,10 @@ tags:
 - Mobile-first responsive design; breakpoint at `768px`.
 - Bootstrap grid classes (`col-lg-8`, `col-md-10`, etc.) are used throughout layouts.
 
+## Documentation & Planning Files
+
+Markdown docs (feature plans, design notes, research) belong in `_doc/` in this repo — create them there directly. Do not redirect to session workspaces.
+
 ## _config.yml Notes
 
 - `future: true` — posts with future dates are published (used for drafts with planned dates).

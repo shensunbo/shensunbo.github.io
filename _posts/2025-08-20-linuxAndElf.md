@@ -3,6 +3,7 @@ layout:       post
 title:        "程序、链接和库"
 author:       "shensunbo"
 header-style: text
+wip: true
 catalog:      true
 tags:
     - linux

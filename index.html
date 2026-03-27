@@ -4,7 +4,7 @@ description: "「离开世界之前 一切都是过程」"
 ---
 
 {% for post in paginator.posts %}
-<div class="post-preview">
+<div class="post-preview" {% if post.wip %}data-wip="true"{% endif %}>
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
             {{ post.title }}

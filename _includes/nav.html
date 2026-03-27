@@ -35,6 +35,12 @@
                                 <i class="fa fa-search"></i>
                             </a>
                         </li>
+                        {% assign wip_posts = site.posts | where: "wip", true %}
+                        {% if wip_posts.size > 0 %}
+                        <li>
+                            <a href="javascript:void(0)" id="wip-toggle" title="Toggle ongoing posts">🚧</a>
+                        </li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>

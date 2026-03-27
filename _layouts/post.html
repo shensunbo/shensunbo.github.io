@@ -25,6 +25,13 @@ layout: default
                     {% include multilingual-sel.html %}
                 {% endif %}
 
+                <!-- WIP Banner -->
+                {% if page.wip %}
+                <div class="wip-banner">
+                    🚧 <strong>Work in progress</strong> — this post is unfinished and may change.
+                </div>
+                {% endif %}
+
 				{{ content }}
 
                 <hr style="visibility: hidden;">
