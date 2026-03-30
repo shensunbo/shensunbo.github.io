@@ -38,6 +38,17 @@
 ⚪ cpp  
 ⚪ 编程技巧  
 
+# tags
+- graphics - opengl, renderer, blender, rendering, texture, skybox, phong
+- cpp - C++, lambda, pimpl, callbacks, threading, code style, state machine, data structures
+- linux - linux, ubuntu, wsl, qnx, crashes, elf
+- android - android, native cpp, aidl
+- tools - ffmpeg, git, gerrit, cmake, docker, vscode, bazel, opencv, assimp, figma, PS, ImageMagick
+- testing - gtest, unit test, debug, valgrind, gcov, gdb, perf, renderdoc
+- english - english learning
+- reading - book notes, 读书笔记
+- life - personal logs, new year plans, 日志
+
 # 访问量统计
 [GA4](https://analytics.google.com/analytics/web/)
 
