@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "2024 新年计划"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - 新年计划
+    - life
 ---
 # plan
 1. 英语：熟练对话

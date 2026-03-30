@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "figma导出svg"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - figma
-    - svg
+    - tools
 ---
 # figma导出svg
 1. 选中要导出的元素

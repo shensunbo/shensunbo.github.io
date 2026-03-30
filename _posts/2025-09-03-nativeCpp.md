@@ -1,4 +1,4 @@
----
+﻿---
 layout:       post
 title:        "交叉编译android native cpp lib"
 author:       "shensunbo"
@@ -6,7 +6,6 @@ header-style: text
 catalog:      true
 tags:
     - android
-    - native cpp
 ---
 # 参考链接
 [参考链接-交叉编译cpp so](https://shensunbo.github.io/2025/09/03/nativeCpp/)

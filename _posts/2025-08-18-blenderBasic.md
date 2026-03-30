@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "blender 常用操作"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - blender
+    - graphics
 ---
 # 修改物体本地坐标系原点
 1. 进入编辑模式，选中要作为新的原点的点

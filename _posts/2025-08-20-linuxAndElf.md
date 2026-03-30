@@ -1,4 +1,4 @@
----
+﻿---
 layout:       post
 title:        "程序、链接和库"
 author:       "shensunbo"

@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "RenderDoc in wsl2 ubuntu"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - renderdoc
-    - wsl2
+    - testing
 ---
 
 直接安装的版本会出现段错误

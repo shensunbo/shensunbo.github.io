@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "多线程注意事项"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - 多线程
+    - cpp
 ---
 
 ### 类  

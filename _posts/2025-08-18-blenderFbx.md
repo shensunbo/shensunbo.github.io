@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "blender 模型处理"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - blender
-    - fbx
+    - graphics
 ---
 # pack and unpack
 ## pack

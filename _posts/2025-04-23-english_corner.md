@@ -1,4 +1,4 @@
----
+﻿---
 layout:       post
 title:        "english corner organized by me record"
 author:       "shensunbo"
@@ -6,7 +6,6 @@ header-style: text
 catalog:      true
 tags:
     - english
-    - english corner
 ---
 
 # 20250411

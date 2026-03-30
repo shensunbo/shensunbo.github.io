@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "LINUX 调试栈"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - stack
-    - debug
+    - testing
 ---
 
 1. info proc mappings 打印内存映射信息

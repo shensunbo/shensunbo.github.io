@@ -1,13 +1,11 @@
----
+﻿---
 layout:       post
 title:        "google mock"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - gtest
-    - unit test
-    - gmock
+    - testing
 ---
 
 [https://github.com/shensunbo/google_test_insight](https://github.com/shensunbo/google_test_insight)

@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "检查表"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - 检查表
-    - checklist
+    - cpp
 ---
 
 # 类检查表

@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "ffmpeg 将摄像头数据转发给WSL2"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - wsl
-    - ffmpeg
+    - tools
 ---
 # windows
 1. 查看摄像头设备的名字

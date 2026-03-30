@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "opengl basic"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - opengl
+    - graphics
 ---
 
 # basic

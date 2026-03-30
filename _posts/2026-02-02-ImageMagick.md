@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "ImageMagick"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - ImageMagick 
-    - image
+    - tools
 ---
 
 # 修改分辨率

@@ -1,13 +1,11 @@
----
+﻿---
 layout:       post
 title:        "使用blender将figma上的矢量图(SVG)转换为fbx"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - blender
-    - fbx
-    - svg
+    - graphics
 ---
 1. 从figma网站下载UI矢量图，比如雷达UI之类的
 2. 创建一个blender工程，导入svg

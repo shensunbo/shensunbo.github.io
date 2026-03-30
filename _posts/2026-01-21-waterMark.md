@@ -1,13 +1,11 @@
----
+﻿---
 layout:       post
 title:        "使用FreeType字体库为NV12的图像叠加水印"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - FreeType
-    - NV12
-    - waterMark
+    - graphics
 ---
 [reference](https://github.com/shensunbo/yuv_tools)
 

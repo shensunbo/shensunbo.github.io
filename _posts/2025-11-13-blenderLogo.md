@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "使用blender为模型添加logo纹理"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - blender
-    - fbx
+    - graphics
 ---
 TODO: no pics for now
 

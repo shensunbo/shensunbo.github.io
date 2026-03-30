@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "代码风格"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - 代码风格
+    - cpp
 ---
 
 # Clean Code

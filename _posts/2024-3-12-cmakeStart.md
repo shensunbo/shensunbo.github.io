@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "camke 入门"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - cmake
+    - tools
 ---
 
 # basic

@@ -1,13 +1,11 @@
----
+﻿---
 layout:       post
 title:        vscode 背景色修改"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - vscode
-    - 护眼色
-    - vscode背景
+    - tools
 ---
 
 # 恢复之前的设置

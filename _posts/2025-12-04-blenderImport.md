@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "Blender 加载 fbx 模型错位"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - blender
-    - fbx
+    - graphics
 ---
 > 使用blender导入fbx后，一些部件会错位，比如汽车的轮子和车门等
 

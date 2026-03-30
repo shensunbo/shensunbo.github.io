@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "ffmpeg 命令"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - ffmpeg
+    - tools
 ---
 
 ## ffmpeg

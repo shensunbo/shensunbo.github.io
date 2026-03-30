@@ -1,13 +1,11 @@
----
+﻿---
 layout:       post
 title:        "Android renderer learn blog"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - Android 
-    - renderer
-    - opengl
+    - android
 ---
 # 仓库
 [github repo](https://github.com/shensunbo/android_native)

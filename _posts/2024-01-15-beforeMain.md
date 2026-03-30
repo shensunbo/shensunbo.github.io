@@ -1,13 +1,11 @@
----
+﻿---
 layout:       post
 title:        "before main"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - codeCommon
-    - c++
-    - main
+    - cpp
 ---
 
 1. 不要使用`std::cout`, 在main函数开始之前cout可能未初始化完成，导致段错误  

@@ -1,4 +1,4 @@
----
+﻿---
 layout:       post
 title:        "英语学习-口语场景"
 author:       "shensunbo"
@@ -6,7 +6,6 @@ header-style: text
 catalog:      true
 tags:
     - english
-    - learn
 ---
 ## meeting
 ### when don`t understand someone

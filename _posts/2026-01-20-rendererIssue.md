@@ -1,13 +1,11 @@
----
+﻿---
 layout:       post
 title:        "renderer渲染器问题及解决方案"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - renderer
-    - rendering
-    - opengl
+    - graphics
 ---
 # 模型加载速度问题
 ## assimp的aiProcessPreset_TargetRealtime_Quality配置加载速度慢

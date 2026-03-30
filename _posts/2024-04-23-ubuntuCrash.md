@@ -1,4 +1,4 @@
----
+﻿---
 layout:       post
 title:        "ubuntu crash"
 author:       "shensunbo"
@@ -6,8 +6,6 @@ header-style: text
 catalog:      true
 tags:
     - linux
-    - ubuntu
-    - crash
 ---
 
 1. 问题现象  

@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "opencv build"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - opencv
+    - tools
 ---
 
 # build linux version 

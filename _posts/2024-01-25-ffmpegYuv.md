@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "ffmpeg yuv图片格式转换"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - ffmpeg
+    - tools
 ---
 1. 查看yuv格式的图片可以使用使用7yuv
 2. ffmpeg转换命令  

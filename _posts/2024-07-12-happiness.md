@@ -1,11 +1,11 @@
----
+﻿---
 layout:       post
 title:        "撞上幸福读书笔记"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - 读书笔记
+    - reading
 ---
 
 1. 前额叶损伤会让人失去思考未来生存状态的能力

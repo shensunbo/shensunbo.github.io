@@ -1,12 +1,11 @@
----
+﻿---
 layout:       post
 title:        "delay Record"
 author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - ffmpeg
-    - record
+    - tools
 ---
 
 使用ffmpeg实现的一个预录制，用于保存开始录制之前的一段时间的视频

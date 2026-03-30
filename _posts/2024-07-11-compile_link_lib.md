@@ -1,4 +1,4 @@
----
+﻿---
 layout:       post
 title:        "编译、链接与库"
 author:       "shensunbo"
