@@ -50,42 +50,44 @@ FT_Set_Pixel_Sizes(FT_Face  face,
 
 ## 代码示例
 ```
-void Watermark::Nv12AddDateWatermark(unsigned char* nv12Buf, int width, int height, const char *text){
+void FastWatermark::Nv12AddDateWatermark(unsigned char* nv12Buf, int width, int height, const char *text){
     unsigned int picSize = width * height * 3 / 2;
-    unsigned int index = 0;
-    int text_alpha = 0;
     int x = m_x_pos;
 
     for (const char* p = text; *p; p++) {
-        if (FT_Load_Char(face, *p, FT_LOAD_RENDER)) {
-            mylog(E, "Failed to load glyph %c", *p);
+        // if (FT_Load_Char(face, *p, FT_LOAD_RENDER)) {
+        //     mylog(E, "Failed to load glyph %c", *p);
+        //     continue;
+        // }
+        // FT_GlyphSlot slot = face->glyph;
+
+        auto it = glyphCache.find(*p);
+        if (it == glyphCache.end()) {
+            mylog(E, "Glyph not found in cache: %c", *p);
+            assert(false);
             continue;
         }
 
-        FT_GlyphSlot slot = face->glyph;
+        const CachedGlyph& glyph = it->second;
+        int y_pos = m_y_pos - glyph.bitmap_top;
 
-        // Calculate the y position for bottom alignment
-        int y_pos = m_y_pos - slot->bitmap_top;// Align the bottom
-
-        // Merge text bitmap (monochrome) onto NV12 image with alpha masking
-        for (int i = 0; i < slot->bitmap.rows; i++) {
-            for (int j = 0; j < slot->bitmap.width; j++) {
-                text_alpha = slot->bitmap.buffer[i * slot->bitmap.pitch + j];  // Alpha value (0-255) of text pixel
-
-                // Only overlay if text pixel is not fully transparent (adjust threshold as needed)
-                // int y_pos = y + i - slot->bitmap_top;
-                if (text_alpha > 0) {
-                    // Overlay text pixel on Y plane
-                    index = (y_pos + i) * width + x + j;
-                    float alpha = slot->bitmap.buffer[i * slot->bitmap.pitch + j] / 255.0f;
-                    nv12Buf[index] = (unsigned char)((1.0f - alpha) * nv12Buf[index] + alpha * 255);
-                    mylog(E, " %d", slot->bitmap.buffer[i * slot->bitmap.pitch + j]);
-                    assert(index < picSize);
+        for (int i = 0; i < glyph.height; i++) {
+            for (int j = 0; j < glyph.width; j++) {
+                uint8_t alpha = glyph.bitmap[i * glyph.pitch + j];
+                
+                if (alpha > 0) {
+                    uint32_t index = (y_pos + i) * width + x + j;
+                    if (index >= picSize) continue;  // 边界检查
+                    
+                    float alpha_ratio = alpha / 255.0f;
+                    nv12Buf[index] = static_cast<uint8_t>(
+                        (1.0f - alpha_ratio) * nv12Buf[index] + alpha_ratio * 255
+                    );
                 }
             }
         }
 
-        x += slot->advance.x >> 6;  // Advance to the next character position
+        x += glyph.advance;
     }
 }
 ```
