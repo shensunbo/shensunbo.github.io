@@ -5,7 +5,7 @@ author:       "shensunbo"
 header-style: text
 catalog:      true
 tags:
-    - testing
+    - tools
 ---
 
 直接安装的版本会出现段错误
